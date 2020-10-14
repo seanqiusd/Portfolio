@@ -17,11 +17,11 @@ html {
 
 .header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 1.5rem;
-    
+  
 }
 
 .header_area .main-menu .navbar {
-    padding: 1rem 5em;
+    padding: 1rem 5rem;
 }
 
 /* Sub navbar a tags */
@@ -49,9 +49,9 @@ html {
     color: black;
 }
 
-/* .site-banner {
-    padding-top: 100px;
-} */
+.site-banner {
+    padding-top: 110px;
+}
 
 /* end nav */
 
@@ -85,10 +85,10 @@ html {
     font-size: 1.5rem;
 } */
 
-/* .set-main .site-banner .banner-image >img {
+.set-main .site-banner .banner-image >img {
     padding: 7rem 0;
     width: 90rem;
-} */
+}
 
 
 /* end banner area */
@@ -144,6 +144,11 @@ html {
     padding-top: 60px;
 } */
 
+/* #cardBorder {
+    box-shadow: 10px 10px 8px lightslategrey;
+    width: 350px;
+} */
+
 .proj-area {
     letter-spacing: 21px; 
     text-align: center;
@@ -159,6 +164,8 @@ html {
     /* margin-right: 50px; */
     margin-bottom: 40px;
     /* outline: 2px solid black; */
+    box-shadow: 15px 10px 8px lightslategrey;
+    width: 350px;
 }
 /* end work area */
 
@@ -169,8 +176,32 @@ html {
 
 /* end blog */
 
-/* contact */
+/* #contact {
+    outline: 5px solid black;
+} */
 
+#contactContainer {
+    /* border: 3px solid darkorange; */
+    box-shadow: 10px 10px 8px lightslategrey;
+    width: 500px;
+    padding-bottom: 15px;
+    background-image: linear-gradient( darkorange, orange, yellow, lightgrey );
+}
+
+input[type=text]:focus{
+    color: darkorange;
+    outline: 2px solid darkorange !important;
+}
+
+input[type=emailaddress]:focus{
+    color: darkorange;
+    outline: 2px solid darkorange !important;
+}
+
+textarea:focus{
+    color: darkorange;
+    outline: 2px solid darkorange !important;
+}
 
 .contact-me {
     margin-top: 50px;
@@ -191,3 +222,37 @@ html {
     /* outline: 2px solid black; */
 }
 /* end footer */
+
+#buttonColor {
+    background-color: orange !important;
+    border: none !important;
+    box-shadow: 5px 5px 3px slategrey;
+}
+
+#buttonColor:hover {
+    background-color: darkorange !important;
+}
+
+/*floating top button stuff*/
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: orange;
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+    background-color: orange;
+    box-shadow: 5px 5px 3px slategrey;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: darkorange;
+}

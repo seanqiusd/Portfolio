@@ -1,120 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Qiu</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <!--  start header area-->
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light"> <!--navbar-fixed for next time-->
-                <a class="navbar-brand" href="index.html"><img src="./assets/sqlogo.jpg" width=50; height=50; alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a> <!--link when you have a prof one-->
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a> <!--link when you have a prof one-->
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="https://github.com/seanqiusd" target="_blank"><i class="fab fa-github"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="https://www.linkedin.com/in/sean-q-6437b7a3/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>  
-        </div>
-    </header>
-    <!--  end header area-->
 
-    <!-- start main area -->
-    <main class="site-main">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Qiu</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <!--  start header area-->
+
+  <!-- <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opinions</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+  </header> -->
+
+  <header class="header_area">
+    <div class="top-bar">
+
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white scrolling-navbar">
+          <!--navbar-fixed for next time-->
+          <a class="navbar-brand" href="index.html"><img src="./assets/sqlogo.jpg" width=50; height=50; alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+              <!--link when you have a prof one-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              <!--link when you have a prof one-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/seanqiusd" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/sean-q-6437b7a3/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--  end header area-->
+
+  <!-- start main area -->
+  <main class="site-main">
 
     <!-- start banner area -->
-      <section class="site-banner">
-        <div class="container">
-          <div class="row">
+    <!-- <section class="site-banner">
+      <div class="container">
+        <div class="row">
           <div class="col-lg-6 col-med-12 site-title">
             <h3 class="title-text">Hey</h3>
             <h1 class="title-text text-uppercase">I am Sean Qiu</h1>
-            <h4 class="title-text text-uppercase">Full stack software developer in training</h4>
+            <h4 class="title-text text-uppercase">Full stack software <br />developer in training</h4>
             <div class="site-buttons">
               <div class="d-flex flex-row flex-wrap">
-                <a class="btn btn-primary mr-4 text-uppercase" href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing" target="_blank" role="button">Hire Me</a> <!--not sure what I want to do with this yet-->
-                <a class="btn btn-primary mr-4 text-uppercase" href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing" target="_blank" role="button">Get Resume</a>
-                <!-- for next time, requires more styling knowledge -->
-                <!-- <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
-                <button tupe="button" class="btn button secondary-button text-uppercase">Get My Resume</button> -->
+                <a class="btn btn-primary mr-4 text-uppercase"
+                  href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
+                  target="_blank" role="button">Hire Me</a>
+                not sure what I want to do with this yet
+                <a class="btn btn-primary mr-4 text-uppercase"
+                  href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
+                  target="_blank" role="button">Get Resume</a>
+                for next time, requires more styling knowledge
+                <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
+                <button tupe="button" class="btn button secondary-button text-uppercase">Get My Resume</button>
               </div>
             </div>
-          </div> 
+          </div>
           <div class="col-lg-6 col-med-12">
-            <img src="./assets/emojime.png" alt="banner-img" class="img-fluid">
-          </div> 
+            <img src="./assets/emojime2.png" alt="banner-img" class="img-fluid">
           </div>
         </div>
-      </section>
+      </div>
+    </section> -->
+
+    <section class="site-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 site-title">
+            <h3 class="title-text">Hey</h3>
+            <h1 class="title-text text-uppercase">I am Sean Qiu</h1>
+            <h4 class="title-text text-uppercase">Full stack software <br />developer in training</h4>
+            <div class="site-buttons">
+              <div class="d-flex flex-row flex-wrap">
+                <a class="btn btn-primary mr-4 text-uppercase" id="buttonColor"
+                  href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
+                  target="_blank" role="button">Hire Me
+                </a>
+                <a class="btn btn-primary mr-4 text-uppercase" id="buttonColor"
+                  href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
+                  target="_blank" role="button">Get Resume
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="./assets/emojime2.png" alt="banner-img" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- end banner area -->
 
     <!-- about area -->
-      <section  id="about" class="about-area">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="about-image">
-                <img src="./assets/Me.jpg" alt="About me" class="img-fluid">
-              </div>
+    <!-- <section id="about" class="about-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="about-image">
+              <img src="./assets/Me.jpg" alt="About me" class="img-fluid">
             </div>
-            <div class="col-lg-6 col-md-12 about-title">
-              <h2 class="text-uppercase pt-5">
-                <span>Let me</span>
-                <span>introduce</span>
-                <span>myself</span>
-              </h2>
-              <div class="paragraph py-4 w75">
-                <p class="para">
-                  Hey! How's it going? I'm Sean Q, a software developer in-training from the Midwest. I majored in political science, minoring in International Relations and Chinese Studies. I was pre-med and pre-law, but ultimately decided that I'd go after my real passion, which is acting. Been working as a commercial actor for quite a few years now. I love it to this day. Best decision I ever made. It's allowed me to meet all kinds of people and given me opportunties that have left a lasting impression. I've always had an interest in coding and recently decided to take the lunge. I've enjoyed every step of this journey. If you have a vision in mind for something software-related, then let's connect. Maybe we can help each other out. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae inventore labore reprehenderit eos illum iste quam, eligendi, autem vero dolore temporibus porro. Molestiae, esse? Officiis possimus aut eligendi laboriosam.
-                </p>
-                <p class="para">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam provident at optio consectetur explicabo dolor?
-                </p>
-              </div>
-              <a class="btn btn-primary text-uppercase" href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/export?format=pdf" target="_blank" role="button">Download Resume</a>
+          </div>
+          <div class="col-lg-6 col-md-12 about-title">
+            <h2 class="text-uppercase pt-5">
+              <span>Let me</span>
+              <span>introduce</span>
+              <span>myself</span>
+            </h2>
+            <div class="paragraph py-4 w75">
+              <p class="para">
+                Hey! How's it going? I'm Sean Q, a software developer in-training from the Midwest. I majored in
+                political science, minoring in International Relations and Chinese Studies. I was pre-med and pre-law,
+                but ultimately decided that I'd go after my real passion, which is acting. Been working as a commercial
+                actor for quite a few years now. I love it to this day. Best decision I ever made. It's allowed me to
+                meet all kinds of people and given me opportunties that have left a lasting impression. I've always had
+                an interest in coding and recently decided to take the lunge. I've enjoyed every step of this journey.
+                If you have a vision in mind for something software-related, then let's connect. Maybe we can help each
+                other out. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae inventore labore
+                reprehenderit eos illum iste quam, eligendi, autem vero dolore temporibus porro. Molestiae, esse?
+                Officiis possimus aut eligendi laboriosam.
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam provident at optio consectetur
+                explicabo dolor?
+              </p>
+            </div>
+            <a class="btn btn-primary text-uppercase"
+              href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/export?format=pdf"
+              target="_blank" role="button">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="about" class="about-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="about-image">
+              <img src="./assets/Me.jpg" alt="About me" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-sm-6 about-title">
+            <h2 class="text-uppercase pt-5">
+              <span>Let me</span>
+              <span>introduce</span>
+              <span>myself</span>
+            </h2>
+            <div class="paragraph py-4 w75">
+              <p class="para">
+                Hey! How's it going? I'm Sean Q, a software developer in-training from the Midwest. I majored in
+                political science, minoring in International Relations and Chinese Studies. I was pre-med and pre-law,
+                but ultimately decided that I'd go after my real passion, which is acting. Been working as a commercial
+                actor for quite a few years now. I love it to this day. Best decision I ever made. It's allowed me to
+                meet all kinds of people and given me opportunties that have left a lasting impression. I've always had
+                an interest in coding and recently decided to take the lunge. I've enjoyed every step of this journey.
+                If you have a vision in mind for something software-related, then let's connect. Maybe we can help each
+                other out. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae inventore labore
+                reprehenderit eos illum iste quam, eligendi, autem vero dolore temporibus porro. Molestiae, esse?
+                Officiis possimus aut eligendi laboriosam.
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam provident at optio consectetur
+                explicabo dolor?
+              </p>
+            </div>
+            <div>
+              <a class="btn btn-primary text-uppercase" id="buttonColor"
+              href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/export?format=pdf"
+              target="_blank" role="button">Download Resume
+              </a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
     <!-- end about area -->
     <!-- experience -->
@@ -124,10 +262,10 @@
           <div id="h2-list" class="col-lg-12 col-md-12">
             <h2 class="text-uppercase pt-5">
               <span><u>Experience</u></span>
-              <span>A few technologies</span>
-              <span>I've been working with recently include:</span>
+              <span>A few technologies <br /> I've been working with recently include:</span>
               <ul class="only-list">
-                <li>HTML & CSS</li>
+                <li><i class="fab fa-html5 fa-2x"></i></li>
+                <li><i class="fab fa-css3-alt fa-2x"></i></li>
                 <li>C#</li>
               </ul>
             </h2>
@@ -137,31 +275,31 @@
     </section>
     <!-- end experience -->
 
-      <!-- work -->
-      <section id="work">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12 col-md-12">
-              <h2 class="text-uppercase pt-5 proj-area">
-                <span><u>Work</u></span>
-                <span>Take a look</span>
-                <span>At some of the stuff I've worked on</span>
-              </h2>
-            </div>
-            <div class="col-xl-6 col-lg-12 col-med-12">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+    <!-- work -->
+    <!-- <section id="work">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <h2 class="text-uppercase pt-5 proj-area">
+              <span><u>Work</u></span>
+              <span>Take a look</span>
+              <span>At some of the stuff I've worked on</span>
+            </h2>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-med-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
-                    <!--<p>-->
-                      <a href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank">
+              <p>
+              <a href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank">
                       <img id="brands" border="0" alt="Brand-1" src="./assets/From Immigrants Website.jpg" width="200">
                       </a>
-                      <!--</p>-->
-                  </div>
-                  <!--<div class="single-brand">
+              </p>
+              </div>
+              <div class="single-brand">
                     <img id="brands" src="./assets/From Immigrants Website.jpg" alt="Brand-1" width="200">
-                  </div>-->
-                </div>
+                  </div>
+              </div>
               <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-brand">
                   <a href="https://seanqiusd.github.io/Static_Store_Front/" target="_blank">
@@ -176,167 +314,299 @@
                   </a>
                 </div>
               </div>
-                <!--<div class="col-lg-4 col-md-6 col-sm-6">
+
+              <div id="brands" class="card" style="width: 18rem;">
+                <img src="./assets/From Immigrants Website.jpg" class="card-img-top" alt="FromImmigrantsWebsite ">
+                <div class="card-body">
+                  <h5 class="card-title">From Immigrants Website</h5>
+                  <p class="card-text">Uses HTML and CSS</p>
+                  <a href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank"
+                    class="btn btn-primary">See It</a>
+                </div>
+              </div>
+
+              <div id="brands" class="card" style="width: 18rem;">
+                <img src="./assets/Jolly Fruit Static Store Front.jpg" class="card-img-top"
+                  alt="JollyFruitStaticStoreFront">
+                <div class="card-body">
+                  <h5 class="card-title">Jolly Fruit Static StoreFront</h5>
+                  <p class="card-text">Uses HTML and CSS</p>
+                  <a href="https://seanqiusd.github.io/Static_Store_Front/" target="_blank" class="btn btn-primary">See
+                    It</a>
+                </div>
+              </div>
+
+              <div id="brands" class="card" style="width: 18rem;">
+                <img src="./assets/BlueBadgeGitHubRepo.jpg" class="card-img-top" alt="BookWormzAPI">
+                <div class="card-body">
+                  <h5 class="card-title">Book Wormz API</h5>
+                  <p class="card-text">Uses C#</p>
+                  <a href="https://github.com/seanqiusd/BookWormzAPI.git" target="_blank" class="btn btn-primary">See
+                    It</a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
                     <img id="brands" src="./assets/Jolly Fruit Static Store Front.jpg" alt="Brand-2" width="200">
                   </div>
-                </div>-->
-              </div>
+                </div>
             </div>
+          </div>
         </div>
-      </section>
-      <!-- end work -->
+    </section> -->
 
-      <!-- blog -->
-      <section id="blog">
-        <div class="container-fluid">
-          <h1 class="blog-beginning"><u>Blog</u></h1>
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="about-image">
-                <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About me" class="img-fluid">
+    <section id="work">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-uppercase pt-5 proj-area">
+              <span><u>Work</u></span>
+              <span>Take a look</span>
+              <span>At some of the stuff I've worked on</span>
+            </h2>
+          </div>
+          <div class="col-sm-4" >
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/From Immigrants Website.jpg" class="card-img-top" alt="FromImmigrantsWebsite ">
+              <div class="card-body">
+                <h5 class="card-title">From Immigrants Website</h5>
+                <p class="card-text">Uses HTML and CSS</p>
+                <a id="buttonColor" href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank"
+                  class="btn btn-primary">View</a>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 about-title">
-              <h2 class="text-uppercase pt-5">
-                <span>Why Software Development</span>
-                <span>Is The Way</span>
-                <span>To Go</span>
-              </h2>
-              <div class="paragraph py-1 w75">
-                <h5>Aug 03, 2020</h3>
+          </div>
+          <div class="col-sm-4" id="cardBorder">
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/Jolly Fruit Static Store Front.jpg" class="card-img-top"
+                alt="JollyFruitStaticStoreFront">
+              <div class="card-body">
+                <h5 class="card-title">Jolly Fruit Static StoreFront</h5>
+                <p class="card-text">Uses HTML and CSS</p>
+                <a id="buttonColor" href="https://seanqiusd.github.io/Static_Store_Front/" target="_blank" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="cardBorder">
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/BlueBadgeGitHubRepo.jpg" class="card-img-top" alt="BookWormzAPI">
+              <div class="card-body">
+                <h5 class="card-title">Book Wormz API</h5>
+                <p class="card-text">Uses C#</p>
+                <a id="buttonColor" href="https://github.com/seanqiusd/BookWormzAPI.git" target="_blank" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="cardBorder">
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/EZPZPOSAzureScreenShot.jpg" class="card-img-top" alt="EZPZPOSASPNETMVC">
+              <div class="card-body">
+                <h5 class="card-title">EZPZPOS ASP.Net MVC</h5>
+                <p class="card-text">Uses C# and CSHTML</p>
+                <a id="buttonColor" href="https://ezpzposmvc.azurewebsites.net/" target="_blank" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end work -->
+
+    <!-- blog -->
+    <section id="blog">
+      <div class="container-fluid">
+        <h1 class="blog-beginning"><u>Blog</u></h1>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="about-image">
+              <img
+                src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="About me" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 about-title">
+            <h2 class="text-uppercase pt-5">
+              <span>Why Software Development</span>
+              <span>Is The Way</span>
+              <span>To Go</span>
+            </h2>
+            <div class="paragraph py-1 w75">
+              <h5>Aug 03, 2020</h3>
                 <h6>by Sean Q.</h3>
-                <p class="para">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quos nostrum ad at? Labore, praesentium.
-                </p>
-                <p class="para">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit repellendus nihil ipsam itaque accusantium amet animi vel vitae rem.
-                </p>
-                <p class="para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsam enim numquam officiis! Veniam quo non expedita dolorum optio in quos nemo iusto temporibus, vero beatae, eius, eos maiores quam?
-                </p>
-              </div>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quos nostrum ad at? Labore,
+                    praesentium.
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit repellendus nihil ipsam itaque
+                    accusantium amet animi vel vitae rem.
+                  </p>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsam enim numquam officiis! Veniam
+                    quo non expedita dolorum optio in quos nemo iusto temporibus, vero beatae, eius, eos maiores quam?
+                  </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- end blog -->
+      </div>
+    </section>
+    <!-- end blog -->
 
-      <!-- contact me -->
+    <!-- contact me -->
 
-      <section id="contact" class="contact-me">
-        <div class ="container contact-container">
-          <div class="row">
-            <div class="col-lg-12 text-center contact-title">
-              <h2 class="text-uppercase"><u>Let's Connect</u></h2>
-            </div>
+    <!-- <section id="contact" class="contact-me">
+      <div class="container contact-container">
+        <div class="row">
+          <div class="col-lg-12 text-center contact-title">
+            <h2 class="text-uppercase"><u>Let's Connect</u></h2>
           </div>
-          <div class="d-sm-flex justify-content-center">
-            <form class="w-50" action="https://formspree.io/xbjzeoqq" method="POST">
-              <div class="col input-textbox">
-              <label>Your email: <input type="text" name="_replyto">
+        </div>
+        <div class="d-sm-flex justify-content-center">
+          <form class="w-50" action="https://formspree.io/xbjzeoqq" method="POST">
+            <div class="col input-textbox">
+              <label for="full-name">Full Name: <input type="text" id="name" name="fullname"
+                  placeholder="Enter first and last name">
               </label>
-              <label>Your message: <textarea name="message"></textarea>
+              <label for="email">Email: <input type="text" placeholder="Enter email" name="_replyto">
               </label>
-              </div>
-              <div class="col">
-                <button class="btn btn-primary" type="submit">SUBMIT</button>
-              </div>
-            </form>
+              <label>Message: <textarea placeholder="Enter message" name="message"></textarea>
+              </label>
+            </div>
+            <div class="col">
+              <button class="btn btn-primary" type="submit">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="contact-me">
+      <div class="container contact-container" id="contactContainer">
+        <div class="row">
+          <div class="col-lg-12 text-center contact-title">
+            <h2 class="text-uppercase"><u>Let's Connect</u></h2>
+          </div>
+          <div class="col-lg-12 d-flex justify-content-center">
+            <form action="https://formspree.io/xbjzeoqq" method="POST">
+              <input style="height: 30px; font-size: 13pt;" class="form-control" type="text" name="fullname" size="50" placeholder="Your First and Last Name">
+              <br />
+              <input style="height: 30px; font-size: 13pt;" class="form-control" type="emailaddress" name="_replyto" size="50" placeholder="Email Address">
+              <br />
+              <textarea class="form-control" placeholder="Message" rows="5" id="message" name="message"></textarea>
+              <br />
+              <button id="buttonColor" class="btn btn-primary" type="submit">SUBMIT</button>
           </div>
         </div>
-      </section>
-      <!-- end contact me -->
-    </main>
-    <!-- end main area -->
+      </div>
+    </section>
 
-    <!-- footer -->
-    <footer>
-      <section>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12 text-center contact-title">
-              <div id="foot-more">
-                <div>
-                  <p>Copyright © SeanQsd</p>
-                </div>
-                <div>
-                  <p><a class="yes" href="about.html">About</a></p>
-                </div>
-                <div>
-                  <p><a class="yes" href="policy.html">Privacy</a></p>
-                </div>
-                <div>
-                  <a class="yes" href="#"><i class="fab fa-facebook"></i></a>
-                </div>
-                <div>
-                  <a class="yes" href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-                <div>
-                  <a class="yes" href="https://github.com/seanqiusd" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-                <div>
-                  <a class="yes" href="https://www.linkedin.com/in/sean-q-6437b7a3/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
+    <!-- end contact me -->
+  </main>
+  <!-- end main area -->
+
+  <!-- footer -->
+  <footer>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 text-center contact-title">
+            <div id="foot-more">
+              <div>
+                <p>Copyright © SeanQsd</p>
+              </div>
+              <div>
+                <p><a class="yes" href="about.html">About</a></p>
+              </div>
+              <div>
+                <p><a class="yes" href="policy.html">Privacy</a></p>
+              </div>
+              <div>
+                <a class="yes" href="#"><i class="fab fa-facebook"></i></a>
+              </div>
+              <div>
+                <a class="yes" href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+              <div>
+                <a class="yes" href="https://github.com/seanqiusd" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+              <div>
+                <a class="yes" href="https://www.linkedin.com/in/sean-q-6437b7a3/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </footer>
-    <!-- end footer -->
+      </div>
+    </section>
+  </footer>
+  <!-- end footer -->
 
+  <script>
+  //   //Hamburger menu toggle
+  $('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+  </script>
 
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
 
-    <script>
-      window.addEventListener("DOMContentLoaded", function() {
-    
-        // get the form elements defined in your form HTML above
-        
-        var form = document.getElementById("my-form");
-        var button = document.getElementById("my-form-button");
-        var status = document.getElementById("my-form-status");
-    
-        // Success and Error functions for after the form is submitted
-        
-        function success() {
-          form.reset();
-          button.style = "display: none ";
-          status.innerHTML = "Thanks!";
-        }
-    
-        function error() {
-          status.innerHTML = "Oops! There was a problem.";
-        }
-    
-        // handle the form submission event
-    
-        form.addEventListener("submit", function(ev) {
-          ev.preventDefault();
-          var data = new FormData(form);
-          ajax(form.method, form.action, data, success, error);
-        });
-      });
-      
-      // helper function for sending an AJAX request
-    
-      function ajax(method, url, data, success, error) {
-        var xhr = new XMLHttpRequest();
-        xhr.open(method, url);
-        xhr.setRequestHeader("Accept", "application/json");
-        xhr.onreadystatechange = function() {
-          if (xhr.readyState !== XMLHttpRequest.DONE) return;
-          if (xhr.status === 200) {
-            success(xhr.response, xhr.responseType);
-          } else {
-            error(xhr.status, xhr.response, xhr.responseType);
-          }
-        };
-        xhr.send(data);
+      // get the form elements defined in your form HTML above
+
+      var form = document.getElementById("my-form");
+      var button = document.getElementById("my-form-button");
+      var status = document.getElementById("my-form-status");
+
+      // Success and Error functions for after the form is submitted
+
+      function success() {
+        form.reset();
+        button.style = "display: none ";
+        status.innerHTML = "Thanks!";
       }
-    </script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+      function error() {
+        status.innerHTML = "Oops! There was a problem.";
+      }
+
+      // handle the form submission event
+
+      form.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var data = new FormData(form);
+        ajax(form.method, form.action, data, success, error);
+      });
+    });
+
+    // helper function for sending an AJAX request
+
+    function ajax(method, url, data, success, error) {
+      var xhr = new XMLHttpRequest();
+      xhr.open(method, url);
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+          success(xhr.response, xhr.responseType);
+        } else {
+          error(xhr.status, xhr.response, xhr.responseType);
+        }
+      };
+      xhr.send(data);
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <button id="myBtn"><a href="index.html" style="color: white">Top</a></button>
 </body>
+
 </html>
