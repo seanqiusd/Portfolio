@@ -186,6 +186,7 @@ html {
     width: 500px;
     padding-bottom: 15px;
     background-image: linear-gradient( darkorange, orange, yellow, lightgrey );
+    border-radius: 6px;
 }
 
 input[type=text]:focus{
