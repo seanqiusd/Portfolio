@@ -13,20 +13,60 @@
 
 <body>
   <!--  start header area-->
+
+  <!-- <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opinions</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+  </header> -->
+
   <header class="header_area">
-    <div class="top-bar fixed-top">
+    <div class="top-bar">
 
       <div class="main-menu">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white scrolling-navbar">
           <!--navbar-fixed for next time-->
           <a class="navbar-brand" href="index.html"><img src="./assets/sqlogo.jpg" width=50; height=50; alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="mr-auto"></div>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
@@ -72,29 +112,56 @@
   <main class="site-main">
 
     <!-- start banner area -->
-    <section class="site-banner">
+    <!-- <section class="site-banner">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-med-12 site-title">
             <h3 class="title-text">Hey</h3>
             <h1 class="title-text text-uppercase">I am Sean Qiu</h1>
-            <h4 class="title-text text-uppercase">Full stack software <br>developer in training</h4>
+            <h4 class="title-text text-uppercase">Full stack software <br />developer in training</h4>
             <div class="site-buttons">
               <div class="d-flex flex-row flex-wrap">
                 <a class="btn btn-primary mr-4 text-uppercase"
                   href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
                   target="_blank" role="button">Hire Me</a>
-                <!--not sure what I want to do with this yet-->
+                not sure what I want to do with this yet
                 <a class="btn btn-primary mr-4 text-uppercase"
                   href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
                   target="_blank" role="button">Get Resume</a>
-                <!-- for next time, requires more styling knowledge -->
-                <!-- <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
-                <button tupe="button" class="btn button secondary-button text-uppercase">Get My Resume</button> -->
+                for next time, requires more styling knowledge
+                <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
+                <button tupe="button" class="btn button secondary-button text-uppercase">Get My Resume</button>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-med-12">
+            <img src="./assets/emojime2.png" alt="banner-img" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="site-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 site-title">
+            <h3 class="title-text">Hey</h3>
+            <h1 class="title-text text-uppercase">I am Sean Qiu</h1>
+            <h4 class="title-text text-uppercase">Full stack software <br />developer in training</h4>
+            <div class="site-buttons">
+              <div class="d-flex flex-row flex-wrap">
+                <a class="btn btn-primary mr-4 text-uppercase" id="buttonColor"
+                  href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
+                  target="_blank" role="button">Hire Me
+                </a>
+                <a class="btn btn-primary mr-4 text-uppercase" id="buttonColor"
+                  href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/edit?usp=sharing"
+                  target="_blank" role="button">Get Resume
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
             <img src="./assets/emojime2.png" alt="banner-img" class="img-fluid">
           </div>
         </div>
@@ -104,7 +171,7 @@
     <!-- end banner area -->
 
     <!-- about area -->
-    <section id="about" class="about-area">
+    <!-- <section id="about" class="about-area">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6 col-md-12">
@@ -142,6 +209,49 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <section id="about" class="about-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="about-image">
+              <img src="./assets/Me.jpg" alt="About me" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-sm-6 about-title">
+            <h2 class="text-uppercase pt-5">
+              <span>Let me</span>
+              <span>introduce</span>
+              <span>myself</span>
+            </h2>
+            <div class="paragraph py-4 w75">
+              <p class="para">
+                Hey! How's it going? I'm Sean Q, a software developer in-training from the Midwest. I majored in
+                political science, minoring in International Relations and Chinese Studies. I was pre-med and pre-law,
+                but ultimately decided that I'd go after my real passion, which is acting. Been working as a commercial
+                actor for quite a few years now. I love it to this day. Best decision I ever made. It's allowed me to
+                meet all kinds of people and given me opportunties that have left a lasting impression. I've always had
+                an interest in coding and recently decided to take the lunge. I've enjoyed every step of this journey.
+                If you have a vision in mind for something software-related, then let's connect. Maybe we can help each
+                other out. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae inventore labore
+                reprehenderit eos illum iste quam, eligendi, autem vero dolore temporibus porro. Molestiae, esse?
+                Officiis possimus aut eligendi laboriosam.
+              </p>
+              <p class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam provident at optio consectetur
+                explicabo dolor?
+              </p>
+            </div>
+            <div>
+              <a class="btn btn-primary text-uppercase" id="buttonColor"
+              href="https://docs.google.com/document/d/1x1A8MiqApWwZ3-_-82O9Dl-sETKLj5hC6qldkcRZWQ0/export?format=pdf"
+              target="_blank" role="button">Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- end about area -->
@@ -152,10 +262,10 @@
           <div id="h2-list" class="col-lg-12 col-md-12">
             <h2 class="text-uppercase pt-5">
               <span><u>Experience</u></span>
-              <span>A few technologies</span>
-              <span>I've been working with recently include:</span>
+              <span>A few technologies <br /> I've been working with recently include:</span>
               <ul class="only-list">
-                <li>HTML & CSS</li>
+                <li><i class="fab fa-html5 fa-2x"></i></li>
+                <li><i class="fab fa-css3-alt fa-2x"></i></li>
                 <li>C#</li>
               </ul>
             </h2>
@@ -166,7 +276,7 @@
     <!-- end experience -->
 
     <!-- work -->
-    <section id="work">
+    <!-- <section id="work">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 col-md-12">
@@ -178,19 +288,19 @@
           </div>
           <div class="col-xl-12 col-lg-12 col-med-12">
             <div class="row">
-              <!--<div class="col-lg-4 col-md-6 col-sm-6">
-                  <div class="single-brand">-->
-              <!--<p>-->
-              <!-- <a href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+              <p>
+              <a href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank">
                       <img id="brands" border="0" alt="Brand-1" src="./assets/From Immigrants Website.jpg" width="200">
-                      </a> -->
-              <!--</p>-->
-              <!-- </div> -->
-              <!--<div class="single-brand">
+                      </a>
+              </p>
+              </div>
+              <div class="single-brand">
                     <img id="brands" src="./assets/From Immigrants Website.jpg" alt="Brand-1" width="200">
-                  </div>-->
-              <!-- </div> -->
-              <!-- <div class="col-lg-4 col-md-6 col-sm-6">
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-brand">
                   <a href="https://seanqiusd.github.io/Static_Store_Front/" target="_blank">
                     <img id="brands" border="0" alt="Brand-2" src="./assets/Jolly Fruit Static Store Front.jpg" width="200">
@@ -203,7 +313,7 @@
                     <img id="brands" border="0" alt="Brand-3" src="./assets/BlueBadgeGitHubRepo.jpg" width="200">
                   </a>
                 </div>
-              </div> -->
+              </div>
 
               <div id="brands" class="card" style="width: 18rem;">
                 <img src="./assets/From Immigrants Website.jpg" class="card-img-top" alt="FromImmigrantsWebsite ">
@@ -236,14 +346,70 @@
                 </div>
               </div>
 
-              <!--<div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="single-brand">
                     <img id="brands" src="./assets/Jolly Fruit Static Store Front.jpg" alt="Brand-2" width="200">
                   </div>
-                </div>-->
+                </div>
             </div>
           </div>
         </div>
+    </section> -->
+
+    <section id="work">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-uppercase pt-5 proj-area">
+              <span><u>Work</u></span>
+              <span>Take a look</span>
+              <span>At some of the stuff I've worked on</span>
+            </h2>
+          </div>
+          <div class="col-sm-4" >
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/From Immigrants Website.jpg" class="card-img-top" alt="FromImmigrantsWebsite ">
+              <div class="card-body">
+                <h5 class="card-title">From Immigrants Website</h5>
+                <p class="card-text">Uses HTML and CSS</p>
+                <a id="buttonColor" href="https://seansql.github.io/Independent_ChallengeTest/" target="_blank"
+                  class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="cardBorder">
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/Jolly Fruit Static Store Front.jpg" class="card-img-top"
+                alt="JollyFruitStaticStoreFront">
+              <div class="card-body">
+                <h5 class="card-title">Jolly Fruit Static StoreFront</h5>
+                <p class="card-text">Uses HTML and CSS</p>
+                <a id="buttonColor" href="https://seanqiusd.github.io/Static_Store_Front/" target="_blank" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="cardBorder">
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/BlueBadgeGitHubRepo.jpg" class="card-img-top" alt="BookWormzAPI">
+              <div class="card-body">
+                <h5 class="card-title">Book Wormz API</h5>
+                <p class="card-text">Uses C#</p>
+                <a id="buttonColor" href="https://github.com/seanqiusd/BookWormzAPI.git" target="_blank" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="cardBorder">
+            <div id="brands" class="card" style="width: 18rem;">
+              <img src="./assets/EZPZPOSAzureScreenShot.jpg" class="card-img-top" alt="EZPZPOSASPNETMVC">
+              <div class="card-body">
+                <h5 class="card-title">EZPZPOS ASP.Net MVC</h5>
+                <p class="card-text">Uses C# and CSHTML</p>
+                <a id="buttonColor" href="https://ezpzposmvc.azurewebsites.net/" target="_blank" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- end work -->
 
@@ -316,7 +482,7 @@
     </section> -->
 
     <section id="contact" class="contact-me">
-      <div class="container contact-container">
+      <div class="container contact-container" id="contactContainer">
         <div class="row">
           <div class="col-lg-12 text-center contact-title">
             <h2 class="text-uppercase"><u>Let's Connect</u></h2>
@@ -329,7 +495,7 @@
               <br />
               <textarea class="form-control" placeholder="Message" rows="5" id="message" name="message"></textarea>
               <br />
-              <button class="btn btn-primary" type="submit">SUBMIT</button>
+              <button id="buttonColor" class="btn btn-primary" type="submit">SUBMIT</button>
           </div>
         </div>
       </div>
@@ -376,7 +542,12 @@
   </footer>
   <!-- end footer -->
 
-
+  <script>
+  //   //Hamburger menu toggle
+  $('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+  </script>
 
   <script>
     window.addEventListener("DOMContentLoaded", function () {
@@ -434,6 +605,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+
+    <button id="myBtn"><a href="index.html" style="color: white">Top</a></button>
 </body>
 
 </html>
